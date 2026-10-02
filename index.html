@@ -424,8 +424,126 @@
         </div>
       </div>
     </section>
-    <section id="faq"></section>
-    <section id="contato"></section>
+
+    <!-- faq -->
+    <section class="faq section" id="faq">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+
+          <h2>
+            Dúvidas comuns antes de começar.
+          </h2>
+
+          <p>
+            Algumas respostas rápidas sobre estrutura digital, tráfego, CRM,
+            tracking e o diagnóstico inicial.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>Preciso já investir em tráfego pago?</summary>
+            <p>
+              Não necessariamente. O diagnóstico considera o estágio atual do
+              negócio para identificar quais estruturas precisam ser organizadas
+              antes de aumentar o investimento em aquisição.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Preciso ter um site?</summary>
+            <p>
+              Depende da estratégia. Em alguns cenários uma landing page pode ser
+              suficiente; em outros, um site mais completo pode fazer mais sentido.
+              A decisão deve acompanhar o objetivo comercial.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>O que é CRM de vendas?</summary>
+            <p>
+              É uma estrutura para organizar contatos, oportunidades e etapas do
+              processo comercial, permitindo acompanhar melhor cada lead ao longo
+              da negociação.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>O que significa tracking?</summary>
+            <p>
+              Tracking é o rastreamento das interações digitais para entender de
+              onde vêm os visitantes, como eles se comportam e quais ações geram
+              oportunidades.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Landing page e site são a mesma coisa?</summary>
+            <p>
+              Não. Uma landing page normalmente possui um objetivo de conversão mais
+              específico, enquanto um site pode apresentar diferentes informações,
+              serviços e caminhos de navegação.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Como funciona o diagnóstico?</summary>
+            <p>
+              O primeiro contato serve para compreender o cenário atual, os canais
+              utilizados, os objetivos e os principais desafios do processo
+              comercial. A partir disso, são identificadas as prioridades.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact section" id="contato">
+      <div class="container contact-grid">
+        <div class="contact-content">
+          <p class="eyebrow">Próximo passo</p>
+
+          <h2>
+            Entenda onde sua operação digital pode evoluir.
+          </h2>
+
+          <p>
+            Envie algumas informações sobre o seu negócio. O contato será utilizado
+            para entender o cenário atual e avaliar os próximos passos.
+          </p>
+        </div>
+
+        <form class="contact-form" id="diagnosis-form">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="company">Empresa</label>
+            <input id="company" name="company" type="text" autocomplete="organization" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Como posso ajudar?</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button class="button button-primary" type="submit">
+            Solicitar diagnóstico
+          </button>
+
+          <p class="form-feedback" id="form-feedback" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
   </main>
 
   <script type="module" src="/src/main.js"></script>

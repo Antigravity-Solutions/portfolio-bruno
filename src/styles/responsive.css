@@ -81,6 +81,20 @@
 
         margin-inline: auto;
     }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-content {
+        max-width: 680px;
+    }
+
+    .contact-form {
+        max-width: 680px;
+        width: 100%;
+        margin-inline: auto;
+    }
 }
 
 @media (max-width: 640px) {
@@ -185,6 +199,23 @@
 
     .about-visual {
         max-width: 360px;
+    }
+
+    .faq-item summary {
+        padding: var(--space-4);
+    }
+
+    .faq-item p {
+        padding:
+            0 var(--space-4) var(--space-4);
+    }
+
+    .contact-form {
+        padding: var(--space-5);
+    }
+
+    .contact-form .button {
+        width: 100%;
     }
 
 }
