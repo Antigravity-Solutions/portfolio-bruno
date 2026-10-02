@@ -1,0 +1,77 @@
+@media (max-width: 960px) {
+  .main-nav,
+  .header-cta {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .hero {
+    padding: 72px 0;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-7);
+  }
+
+  .hero-visual {
+    max-width: 620px;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    --container-padding: 20px;
+    --header-height: 68px;
+  }
+
+  .brand-text small {
+    display: none;
+  }
+
+  .brand-mark {
+    width: 40px;
+    height: 40px;
+  }
+
+  .hero {
+    padding: 56px 0 64px;
+  }
+
+  .eyebrow {
+    margin-bottom: var(--space-4);
+    font-size: 0.7rem;
+    line-height: 1.5;
+  }
+
+  .hero h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero-description {
+    margin-top: var(--space-4);
+    font-size: 1rem;
+  }
+
+  .hero-actions {
+    margin-top: var(--space-5);
+  }
+
+  .hero-actions .button {
+    width: 100%;
+  }
+
+  .hero-actions .button-secondary {
+    display: none;
+  }
+
+  .hero-visual {
+    padding: var(--space-5);
+  }
+
+}

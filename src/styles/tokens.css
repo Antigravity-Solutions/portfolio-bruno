@@ -41,4 +41,17 @@
   /* Shadow */
   --shadow-sm: 0 4px 12px rgb(47 54 63 / 8%);
   --shadow-md: 0 8px 28px rgb(47 54 63 / 10%);
+
+  /* Section colors */
+  --color-hero-background: #f1fbfc;
+
+  /* Text */
+  --color-text-primary: #2f363f;
+  --color-text-secondary: #6d727a;
+
+  /* Header */
+  --header-height: 80px;
+
+  /* Transition */
+  --transition-base: 180ms ease;
 }

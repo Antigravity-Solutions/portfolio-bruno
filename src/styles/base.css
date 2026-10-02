@@ -11,6 +11,7 @@ html {
 }
 
 body {
+  min-width: 320px;
   margin: 0;
   font-family: var(--font-body);
   color: var(--color-dark-slate);
@@ -45,4 +46,16 @@ h3 {
 
 p {
   margin: 0;
+}
+
+.container {
+  width: min(
+    calc(100% - (var(--container-padding) * 2)),
+    var(--container-max)
+  );
+  margin-inline: auto;
+}
+
+section {
+  scroll-margin-top: var(--header-height);
 }
