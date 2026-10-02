@@ -1,0 +1,57 @@
+:root {
+  /* Brand */
+  --color-dark-slate: #2f363f;
+  --color-charcoal: #4a5059;
+  --color-mid-grey: #6d727a;
+  --color-light-grey: #a1a5ac;
+  --color-electric-teal: #00e5ff;
+  --color-functional-green: #1de9b6;
+
+  /* Interface */
+  --color-white: #ffffff;
+  --color-background: #f7f8f9;
+  --color-border: #e3e8ed;
+  --color-soft-teal: #ecfcff;
+
+  /* Typography */
+  --font-heading: 'Manrope', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Layout */
+  --container-max: 1200px;
+  --container-padding: 24px;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 80px;
+
+  /* Shadow */
+  --shadow-sm: 0 4px 12px rgb(47 54 63 / 8%);
+  --shadow-md: 0 8px 28px rgb(47 54 63 / 10%);
+
+  /* Section colors */
+  --color-hero-background: #f1fbfc;
+
+  /* Text */
+  --color-text-primary: #2f363f;
+  --color-text-secondary: #6d727a;
+
+  /* Header */
+  --header-height: 80px;
+
+  /* Transition */
+  --transition-base: 180ms ease;
+}
