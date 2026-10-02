@@ -876,3 +876,21 @@
 
     font-size: 0.85rem;
 }
+
+.button:disabled {
+    cursor: not-allowed;
+
+    opacity: 0.65;
+
+    transform: none;
+    box-shadow: none;
+}
+
+.form-feedback {
+    min-height: 24px;
+
+    color: var(--color-text-secondary);
+
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
