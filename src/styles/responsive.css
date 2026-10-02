@@ -1,3 +1,14 @@
+@media (max-width: 1280px) {
+
+    .process-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .process-card:last-child {
+        grid-column: span 1;
+    }
+}
+
 @media (max-width: 960px) {
 
     .main-nav,
@@ -45,6 +56,30 @@
         height: 24px;
 
         transform: rotate(90deg);
+    }
+
+    .process-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .process-card:last-child {
+        grid-column: span 2;
+    }
+
+    .audience-layout,
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .audience-layout {
+        gap: var(--space-6);
+    }
+
+    .about-visual {
+        width: 100%;
+        max-width: 520px;
+
+        margin-inline: auto;
     }
 }
 
@@ -128,6 +163,28 @@
 
     .service-card h3 {
         margin-top: var(--space-5);
+    }
+
+    .process-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .process-card,
+    .process-card:last-child {
+        grid-column: auto;
+        min-height: auto;
+    }
+
+    .audience-item {
+        padding: var(--space-4);
+    }
+
+    .about-grid {
+        gap: var(--space-6);
+    }
+
+    .about-visual {
+        max-width: 360px;
     }
 
 }
